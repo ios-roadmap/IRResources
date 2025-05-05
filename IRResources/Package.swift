@@ -21,8 +21,7 @@ let package = Package(
             name: "IRResources",
             dependencies: [
                 
-            ],
-            path: "IRResources"
+            ]
         ),
     ]
 )
