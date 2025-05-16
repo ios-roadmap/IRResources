@@ -10,18 +10,18 @@ let package = Package(
     products: [
         .library(
             name: "IRResources",
-            targets: ["IRResources"]
-        ),
+            targets: ["IRResources"]),
     ],
     dependencies: [
-        
+        .package(name: "IRFoundation", path: "../IRFoundation")
     ],
     targets: [
         .target(
             name: "IRResources",
             dependencies: [
-                
-            ]
+                "IRFoundation"
+            ],
+            path: "IRResources"
         ),
     ]
 )
