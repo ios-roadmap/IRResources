@@ -21,7 +21,8 @@ let package = Package(
             dependencies: [
                 "IRFoundation"
             ],
-            path: "IRResources"
+            path: "IRResources",
+            publicHeadersPath: "."
         ),
     ]
 )
